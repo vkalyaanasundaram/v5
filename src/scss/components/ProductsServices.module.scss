@@ -1,0 +1,48 @@
+// CSS for the Hero component in components/Hero.tsx.
+
+@import "scss/variables";
+
+ 
+ 
+.subtitle{
+	color: #ffffff;
+    font-size: 19px;
+    position: relative;
+    z-index: 3;
+    opacity: 0.7;
+    padding-top: 2px;
+}
+ 
+ 
+.wrap {
+    flex-wrap: inherit;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1700px;
+	padding: 0 15px;
+
+ 
+	h2 {
+		font-size: 1.5em;
+		max-width: 100%;
+		color: blue;
+		margin-bottom: 1.4em;
+	}
+}
+
+@media screen and (min-width: $content-width) {
+	.wrap {
+		padding: 2em;
+	}
+}
+
+
+@media screen and (max-width: $breakpoint-small) {
+	.products_services h2{
+		font-size: 1.75em;
+		max-width: 100%;
+		color: #007239;
+		margin-bottom: 1.4em;
+	}
+}
+ 

@@ -1,0 +1,59 @@
+{
+  "name": "next-headless-getting-started",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "clean": "rimraf .next node_modules",
+    "lint": "next lint",
+    "generate": "gqty generate",
+    "wpe-build": "next build",
+    "svg": "svgr -d src/components/icons/ src/components/icons/svgs"
+  },
+  "dependencies": {
+    "@faustjs/core": "^0.15.6",
+    "@faustjs/next": "^0.15.6",
+    "@hcaptcha/react-hcaptcha": "^1.4.4",
+    "@svgr/cli": "^6.3.0",
+    "@wordpress/base-styles": "^4.6.0",
+    "@wordpress/block-library": "^7.10.0",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "framer-motion": "^6.5.1",
+    "ip": "^1.1.8",
+    "js-base64": "^3.7.2",
+    "next": "^12.1.0",
+    "next-themes": "^0.2.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.4.14",
+    "react": "^17.0.2",
+    "react-cool-inview": "^3.0.1",
+    "react-dom": "^17.0.2",
+    "react-hook-form": "^7.33.1",
+    "react-responsive-carousel": "^3.2.23",
+    "react-responsive-masonry": "^2.1.4",
+    "react-signature-canvas": "^1.0.6",
+    "sass": "^1.44.0",
+    "sharp": "^0.30.1",
+    "tailwindcss": "^3.1.6",
+    "use-force-update": "^1.0.9"
+  },
+  "devDependencies": {
+    "@gqty/cli": "^3.1.0",
+    "@types/node": "^17.0.17",
+    "@types/react": "^17.0.37",
+    "@types/react-dom": "^17.0.11",
+    "dotenv-flow": "3.2.0",
+    "eslint": "^8.4.1",
+    "eslint-config-next": "^12.0.7",
+    "next-sitemap": "^3.1.15",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.5.2"
+  }
+}

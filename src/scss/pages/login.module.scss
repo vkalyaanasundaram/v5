@@ -1,0 +1,39 @@
+// CSS for the Hero component in components/Hero.tsx.
+
+@import "scss/variables";
+
+
+
+.myForm {
+    margin-top: 20px;
+    margin-left: 0;
+    padding: 26px 24px 34px;
+    /* font-weight: 400; */
+    overflow: hidden;
+    background: #fff;
+    border: 1px solid #c3c4c7;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 4%);
+  }
+
+  .login {
+    width: 320px;
+    padding: 8% 0 0;
+    margin: auto;
+  }
+  .label{
+	font-size: 14px;
+    line-height: 1.5;
+    display: inline-block;
+    margin-bottom: 3px;
+  }
+  .text {
+	font-size: 24px;
+    line-height: 1.33333333;
+    width: 100%;
+    border-width: 0.0625rem;
+    padding: 0.1875rem 0.3125rem;
+    margin: 0 6px 16px 0;
+    min-height: 30px;
+	  border-radius: 4px;
+    max-height: none;
+  }
