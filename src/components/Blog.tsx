@@ -92,9 +92,9 @@ export default function Blog({
               {key === 0 ? (
                 <div id={`post-${post.id}`}>
                   <div className={styles.prime}>
-                    {/* <PostLargeImage
+                    <PostLargeImage
                       imageSrcUrl={post?.featuredImage?.node?.sourceUrl()}
-                    /> */}
+                    />
                     <Heading
                       level={postMainTitleLevel}
                       className={styles.title}
