@@ -43,7 +43,7 @@ export function PostComponent({ post }: PostProps) {
               bgImage={post?.featuredImage?.node?.sourceUrl()}
             />
             <div> Blog Content</div>
-            {/* <div dangerouslySetInnerHTML={{ __html: post?.content() ?? '' }} /> */}
+            <div dangerouslySetInnerHTML={{ __html: post?.content() ?? '' }} />
           </div>
           <div className="blogNav">
             <SearchBlogs />
