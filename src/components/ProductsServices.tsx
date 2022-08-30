@@ -33,9 +33,6 @@ export default function ProductsServices({  productsService, username, password 
 
  
  
-
-  console.log({productsService});
- 
   return (
     <>
       <Advancedhero

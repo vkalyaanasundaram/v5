@@ -137,9 +137,9 @@ export default function Blog({
                 id={`post-${post.id}`}
               >
                 <div>
-                  {/* <PostImage
+                  <PostImage
                     imageSrcUrl={post?.featuredImage?.node?.sourceUrl()}
-                  /> */}
+                  />
                   <Heading level={postTitleLevel} className={styles.title}>
                     <Link href={`/blog/${post.slug}`}>
                       <a>{post.title()}</a>

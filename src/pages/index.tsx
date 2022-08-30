@@ -10,7 +10,6 @@ import { Page as PageType, client, PageIdType } from 'client';
 import SEO from 'components/SEO'
 import FastApp from 'components/Forms/FastApp'
 
-console.log('test2')
 
 interface MyPageProps {
   username: string;
