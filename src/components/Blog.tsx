@@ -92,9 +92,9 @@ export default function Blog({
               {key === 0 ? (
                 <div id={`post-${post.id}`}>
                   <div className={styles.prime}>
-                    <PostLargeImage
+                    {/* <PostLargeImage
                       imageSrcUrl={post?.featuredImage?.node?.sourceUrl()}
-                    />
+                    /> */}
                     <Heading
                       level={postMainTitleLevel}
                       className={styles.title}
@@ -103,10 +103,10 @@ export default function Blog({
                         <a>{post.title()}</a>
                       </Link>
                     </Heading>
-                    <div
+                    {/* <div
 
                       dangerouslySetInnerHTML={{ __html: post.excerpt() ?? "" }}
-                    />
+                    /> */}
                     <Link href={`/blog/${post.slug}`}>
                       <a
                         aria-label={`Read more about ${post.title || "the post"
@@ -137,18 +137,18 @@ export default function Blog({
                 id={`post-${post.id}`}
               >
                 <div>
-                  {/* <PostImage
+                  <PostImage
                     imageSrcUrl={post?.featuredImage?.node?.sourceUrl()}
-                  /> */}
+                  />
                   <Heading level={postTitleLevel} className={styles.title}>
                     <Link href={`/blog/${post.slug}`}>
                       <a>{post.title()}</a>
                     </Link>
                   </Heading>
-                  <div
+                  {/* <div
                     className={styles.excerpt}
                     dangerouslySetInnerHTML={{ __html: post.excerpt() ?? "" }}
-                  />
+                  /> */}
                   <Link href={`/blog/${post.slug}`}>
                     <a
                       aria-label={`Read more about ${post.title || "the post"
