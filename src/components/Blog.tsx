@@ -145,10 +145,10 @@ export default function Blog({
                       <a>{post.title()}</a>
                     </Link>
                   </Heading>
-                  {/* <div
+                  <div
                     className={styles.excerpt}
                     dangerouslySetInnerHTML={{ __html: post.excerpt() ?? "" }}
-                  /> */}
+                  />
                   <Link href={`/blog/${post.slug}`}>
                     <a
                       aria-label={`Read more about ${post.title || "the post"
